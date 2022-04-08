@@ -1,0 +1,16 @@
+{
+    "extends": [
+        "react-app"
+    ],
+    "rules": {
+        "react/self-closing-comp": [
+            "error",
+            {
+                "component": true,
+                "html": true
+            }
+        ],
+        "no-trailing-spaces": 1,
+        "no-multiple-empty-lines": 1
+    }
+}

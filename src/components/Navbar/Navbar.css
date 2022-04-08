@@ -1,0 +1,30 @@
+.NavBar {
+    background-color: rgb(105, 105, 105);
+    display: flex;
+    justify-content: space-around;
+    min-height: 3;
+    color: white;
+    align-items: center;
+}
+
+.logo {
+    color: rgba(75, 214, 75, 0.636);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.nav-links {
+    text-emphasis-color: orange;
+    color: white;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.link {
+    color: white;
+}
