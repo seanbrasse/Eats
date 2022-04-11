@@ -11,6 +11,8 @@
             }
         ],
         "no-trailing-spaces": 1,
-        "no-multiple-empty-lines": 1
+        "no-multiple-empty-lines": 1,
+        "no-duplicate-imports": 1,
+        "sort-imports": 1,
     }
 }

@@ -1,5 +1,6 @@
 .NavBar {
-    background-color: rgb(105, 105, 105);
+    /* background-color: rgb(171, 166, 166); */
+    background: #455a64;
     display: flex;
     justify-content: space-around;
     min-height: 3;
@@ -8,7 +9,11 @@
 }
 
 .logo {
-    color: rgba(75, 214, 75, 0.636);
+    color: #64dd17;
+    direction: row;
+    display: flex;
+    align-items: center;    
+
 }
 
 a:link {

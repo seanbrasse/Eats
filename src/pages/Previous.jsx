@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-function Previous() {
+const Previous = () => {
   return (
     <div className="Previous">
       <h1>Places I've Eaten Page</h1>
     </div>
-  );
+  )
 }
 
-export default Previous;
+export default Previous

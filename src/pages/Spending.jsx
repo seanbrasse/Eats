@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react'
 
-function Spending() {
+const Spending = () => {
   return (
     <div className="Spending">
       <h1>Spending Page</h1>
     </div>
-  );
+  )
 }
 
-export default Spending;
+export default Spending

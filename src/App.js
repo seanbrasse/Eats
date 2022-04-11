@@ -8,13 +8,13 @@ import Previous from './pages/Previous'
 import Spending from './pages/Spending'
 import Navbar from './components/Navbar/Navbar'
 
-function App() {
+const App = () => {
   return (
     <Router>
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/" exact element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/previous" element={<Previous />} />
           <Route path="/spending" element={<Spending />} />
         </Routes>

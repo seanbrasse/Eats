@@ -1,13 +1,19 @@
-import { Fastfood } from '@mui/icons-material'
-import { Box, Button, Icon } from '@mui/material'
+import { Fastfood, Title } from '@mui/icons-material'
+import { Box, Button, Icon, Typography } from '@mui/material'
 import React from 'react'
 import { Link } from 'react-router-dom'
+import '@fontsource/cabin/700.css'
 
-function Navbar() {
+const Navbar = () => {
   return (
     <Box className="NavBar">
-      <Fastfood />
-      <h1>NavBar</h1>
+      <Box className="logo" sx={{ paddingX: 2, paddingY: 1 }}>
+        <Fastfood sx={{ paddingX: 2, fontSize: 40 }} />
+        <Typography variant="h4" fontFamily={'cabin'}>
+          Eats!
+        </Typography>
+        {/* <h1>Eats!</h1> */}
+      </Box>
       <ul className="nav-links">
         <Link className="link" to="/">
           <li>Home</li>
